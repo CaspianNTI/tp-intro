@@ -5,10 +5,10 @@
 
 while True:  # [att upprepa]
     tal1 = input("Mata in det första talet (eller skriv 'stopp' för att avsluta): ")  # [att spara]
-    if tal1.lower() == "stopp":
+    if tal1.lower() == "stopp": # [att välja]
         break
     tal2 = input("Mata in det andra talet (eller skriv 'stopp' för att avsluta): ")  # [att spara]
-    if tal2.lower() == "stopp":
+    if tal2.lower() == "stopp": # [att välja]
         break
     summa = float(tal1) + float(tal2)  # [att spara]
     print("Summan är:", summa)
